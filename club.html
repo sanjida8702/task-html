@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>University Coding Club</title>
+<link rel="icon" type="image/svg+xml" href="logo.svg">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+<nav id="navbar">
+<a href="#about">About</a>
+<a href="#schedule">Schedule</a>
+<a href="#register">Register</a>
+</nav>
+<h1>University Coding Club</h1>
+</header>
+<section id="about" class="about-box">
+<h2>About Us</h2>
+<img src="logo.svg" alt="Coding Club ">
+<p>The University Coding Club is a place where students can learn programming, share ideas, and improve their coding skills. It helps students work together on projects and gain practical experience.</p>
+</section>
+<section id="schedule" class="content-box">
+<h2>Weekly Schedule</h2>
+<table>
+<tr>
+<th colspan="3">Coding Club Weekly Plan</th>
+</tr>
+<tr>
+<th>Day</th>
+<th>Time</th>
+<th>Activity</th>
+</tr>
+<tr>
+<td>Sunday</td>
+<td>9:00 AM - 10:30 AM</td>
+<td>HTML</td>
+</tr>
+<tr>
+<td>Tuesday</td>
+<td>9:00 AM - 10:30 AM</td>
+<td>CSS</td>
+</tr>
+<tr>
+<td rowspan="2">Thursday</td>
+<td>9:00 AM - 10:00 AM</td>
+<td>JavaScript</td>
+</tr>
+<tr>
+<td>10:00 PM - 11:00 PM</td>
+<td>Project Discussion</td>
+</tr>
+<tr>
+<td colspan="3" class="off-day">Friday and Saturday: Closed</td>
+</tr>
+</table>
+</section>
+<section id="register" class="content-box">
+<h2>Join the Club</h2>
+<form action="#" method="post">
+<fieldset>
+<legend>Student Registration Form</legend>
+<label for="name">Full Name:</label>
+<input type="text" id="name" name="fullname" required>
+<br><br>
+<label for="email">Email:</label>
+<input type="email" id="email" name="email" required>
+<br><br>
+<label for="pass">Password:</label>
+<input type="password" id="pass" name="password">
+<br><br>
+Gender:
+<input type="radio" id="male" name="gender" value="male"><label for="male">Male</label>
+<input type="radio" id="female" name="gender" value="female">
+<label for="female">Female</label>
+<input type="radio" id="other" name="gender" value="other">
+<label for="other">Other</label>
+<br><br>
+<label for="dept">Department:</label>
+<select id="dept" name="department">
+<option value="cs">CSE</option>
+<option value="eee">BBA</option>
+<option value="bba">EEE</option>
+
+</select>
+<br><br>
+<input type="submit" value="Submit">
+<input type="reset" value="Reset">
+</fieldset>
+</form>
+</section>
+<footer>
+<a href="https://www.aiub.edu" target="_blank">Visit the University Website</a>
+</footer>
+</body>
+</html>
