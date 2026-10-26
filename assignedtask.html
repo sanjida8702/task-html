@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Assigned Tasks | Super Hostel Management System</title>
+    <link rel="stylesheet" href="assignedtask.css">
+</head>
+<body>
+    <aside class ="sidebar">
+        <a class="brand" href="#dashboard">
+             <span class="brand-mark">⌂</span>
+              <span>
+                <strong>Super Hostel</strong>
+                <small>Management System</small>
+            </span>
+        </a>
+        <p class="sidebar-label">SERVICE STAFF PORTAL</p>
+        <nav>
+            <a href="#dashboard">
+                <span class="nav-icon">⌂</span> Dashboard
+            </a>
+            <a class="active" href="#assigned-tasks">
+                <span class="nav-icon">▤</span> My Assigned Tasks
+            </a>
+             <a href="#profile">
+                <span class="nav-icon">●</span> Profile
+            </a>
+            <a href="#logout">
+                <span class="nav-icon">⇥</span> Logout
+            </a>
+        </nav>
+        <div class="sidebar-note">
+            <h3>Your Work Keeps<br>
+                the Hostel Running<br>
+                Smoothly!</h3>
+                 
+        </div>
+    </aside>
+    <main class="main-content" id="dashboard">
+         <header class="topbar">
+            <div>
+                <p class="title">SERVICE STAFF PORTAL</p>
+                <h1>My Assigned Tasks</h1>
+                <p class="subtitle">
+                    View the tasks assigned to you .
+                </p>
+            </div>
+              <div class="profile">
+        <div class="avatar">●</div>
+
+        <div class="profile-info">
+            <span class="name">name</span>
+            <span class="role">Cleaning Staff</span>
+        </div>
+            </div>
+         </header>
+          <section class="welcome">
+           <div class="banner">
+    <div class="banner-text">
+        <h2>Keep Our Hostel Clean & Comfortable</h2>
+        <p>
+            Your dedication makes a big difference
+            in creating a better living environment.
+        </p>
+    </div>
+
+    <div class="image" role="img"></div>
+</div>
+            </section>
+             <section class="summary" >
+                <article class="summary-card">
+                    <div class="summary-icon blue">▤</div>
+                <div>
+                    <p>Total Assigned Tasks</p>
+                    <strong>5</strong>
+                </div>
+                </article>
+                <article class="summary-card">
+                <div class="summary-icon orange">◷</div>
+                <div>
+                    <p>Pending Tasks</p>
+                    <strong>2</strong>
+                </div>
+            </article>
+             <article class="summary-card">
+                <div class="summary-icon green">✓</div>
+                <div>
+                    <p>Completed Tasks</p>
+                    <strong>2</strong>
+                </div>
+            </article>
+
+             </section>
+             <section class="tasks" id="assigned-tasks">
+                <div class="heading">
+                <h2>Assigned Tasks</h2>
+                <span>5 Tasks</span>
+            </div>
+                <div class="table">
+                <table>
+                    <thead>
+                        <tr>
+                            
+                            <th>Task Name</th>
+                            <th>Type</th>
+                            <th>Location</th>
+                            <th>Deadline</th>
+                            <th>Priority</th>
+                            <th>Status</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                     <tbody>
+                        <tr id="task-1">
+                            <td>1</td>
+                            <td>
+                                
+                                <strong>Clean Common Area</strong>
+                            </td>
+                            <td>
+                                <span class="type cleaning">Cleaning</span>
+                            </td>
+                            <td>
+                                Building A<br>
+                                Ground Floor
+                            </td>
+                            <td>
+                                <span class="calendar">▦</span> Today<br>
+                                <span class="time">10:00 AM</span>
+                            </td>
+                            <td>
+                                <span class="high">High</span>
+                            </td>
+                            <td>
+                                <span class="progress">In Progress</span>
+                            </td>
+                            <td>
+                                <a class="view-button" href="#task-1">View</a>
+                            </td>
+                             <tr id="task-2">
+                                <td>2</td>
+                                <td>
+                                
+                                <strong>Collect Laundry</strong>
+                            </td>
+                            <td>
+                                <span class="type laundry">Laundry</span>
+                            </td>
+                            <td>
+                                Laundry Room<br>
+                                Block B
+                            </td>
+                            <td>
+                                <span class="calendar">▦</span> Today<br>
+                                <span class="time">11:30 AM</span>
+                            </td>
+                            <td>
+                                <span class="medium">Medium</span>
+                            </td>
+                            <td>
+                                <span class="pending">Pending</span>
+                            </td>
+                            <td>
+                                <a class="view-button" href="#task-2">View</a>
+                            </td>
+                             </tr>
+                             <tr id="task-3">
+                            <td>3</td>
+                            <td>
+                                
+                                <strong>Prepare Dining Area</strong>
+                            </td>
+                            <td>
+                                <span class="type kitchen">Kitchen</span>
+                            </td>
+                            <td>Main Dining Hall</td>
+                            <td>
+                                <span class="calendar">▦</span> Today<br>
+                                <span class="time">7:00 PM</span>
+                            </td>
+                            <td>
+                                <span class="high">High</span>
+                            </td>
+                            <td>
+                                <span class="completed">Completed</span>
+                            </td>
+                            <td>
+                                <a class="view-button" href="#task-3">View</a>
+                            </td>
+                        </tr>
+                        <tr id="task-4">
+                            <td>4</td>
+                            <td>
+                               
+                                <strong>Change Bed Sheets</strong>
+                            </td>
+                            <td>
+                                <span class="type cleaning">Cleaning</span>
+                            </td>
+                            <td>
+                                Building B<br>
+                                Second Floor
+                            </td>
+                            <td>
+                                <span class="calendar">▦</span> Tomorrow<br>
+                                <span class="time">9:00 AM</span>
+                            </td>
+                            <td>
+                                <span class="priority medium">Medium</span>
+                            </td>
+                            <td>
+                                <span class="status pending">Pending</span>
+                            </td>
+                            <td>
+                                <a class="view-button" href="#task-4">View</a>
+                            </td>
+                        </tr>
+                        <tr id="task-5">
+                            <td>5</td>
+                            <td>
+                              
+                                <strong>Clean Study Room</strong>
+                            </td>
+                            <td>
+                                <span class="type cleaning">Cleaning</span>
+                            </td>
+                            <td>
+                                Building B<br>
+                                First Floor
+                            </td>
+                            <td>
+                                <span class="calendar">▦</span> Tomorrow<br>
+                                <span class="time">4:00 PM</span>
+                            </td>
+                            <td>
+                                <span class="low">Low</span>
+                            </td>
+                            <td>
+                                <span class="completed">Completed</span>
+                            </td>
+                            <td>
+                                <a class="view-button" href="#task-5">View</a>
+                            </td>
+                        </tr>
+                     </tbody>
+                      </table>
+             </section>
+    </main>
+    </body>
+    </html>
